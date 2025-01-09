@@ -3,20 +3,20 @@
 	"id": "playertitleforfabric",
 	"version": "${version}",
 	"name": "PlayerTitleForFabric",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A player title Minecraft mod for Fabric.",
 	"authors": [
-		"Me!"
+		"Oak Platinum(Hz6826)"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://mln.hz6826.com.cn/",
+		"sources": "https://github.com/OakPlatinum/playertitleforfabric"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/playertitleforfabric/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.hz6826.PlayerTitleForFabric"
+			"com.hz6826.playertitleforfabric.PlayerTitleForFabric"
 		]
 	},
 	"mixins": [
@@ -27,8 +27,5 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

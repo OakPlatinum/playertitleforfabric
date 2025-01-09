@@ -1,4 +1,4 @@
-package com.hz6826;
+package com.hz6826.playertitleforfabric;
 
 import net.fabricmc.api.ModInitializer;
 

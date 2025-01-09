@@ -1,4 +1,4 @@
-package com.hz6826.mixin;
+package com.hz6826.playertitleforfabric.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
