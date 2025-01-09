@@ -1,12 +1,14 @@
-package com.hz6826.playertitleforfabric;
+package com.hz6826.pt4f;
 
+import eu.midnightdust.lib.config.MidnightConfig;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.message.v1.ServerMessageDecoratorEvent;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class PlayerTitleForFabric implements ModInitializer {
-	public static final String MOD_ID = "playertitleforfabric";
+	public static final String MOD_ID = "pt4f";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -19,6 +21,9 @@ public class PlayerTitleForFabric implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Player Title For Fabric is loading!");
+		MidnightConfig.init(MOD_ID, Config.class);
+		Commands.init();
+		ServerMessageDecoratorEvent.EVENT.register(ServerMessageDecoratorEvent.CONTENT_PHASE, DecoratorEventHandler::decorate);
 	}
 }

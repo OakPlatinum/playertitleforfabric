@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "playertitleforfabric",
+	"id": "pt4f",
 	"version": "${version}",
 	"name": "PlayerTitleForFabric",
 	"description": "A player title Minecraft mod for Fabric.",
@@ -12,15 +12,15 @@
 		"sources": "https://github.com/OakPlatinum/playertitleforfabric"
 	},
 	"license": "MIT",
-	"icon": "assets/playertitleforfabric/icon.png",
+	"icon": "assets/pt4f/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.hz6826.playertitleforfabric.PlayerTitleForFabric"
+			"com.hz6826.pt4f.PlayerTitleForFabric"
 		]
 	},
 	"mixins": [
-		"playertitleforfabric.mixins.json"
+		"pt4f.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.10",
