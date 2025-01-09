@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.hz6826.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
