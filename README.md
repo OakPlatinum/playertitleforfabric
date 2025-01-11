@@ -1,8 +1,5 @@
-<div style="text-align: center; margin: 20px">
-    <img src="src/main/resources/assets/pt4f/icon.png" alt="Icon" style="width: 100px; height: 100px">
-    <p style="font-size: 30px; font-weight: bold;">Player Title for Fabric</p>
-    <p style="font-size: 20px;">A player title Minecraft mod for Fabric.</p>
-</div>
+# Player Title for Fabric
+A player title Minecraft mod for Fabric.
 
 [![CI](https://github.com/OakPlatinum/playertitleforfabric/actions/workflows/build.yml/badge.svg)](https://github.com/OakPlatinum/playertitleforfabric/actions)
 [![Latest Release](https://img.shields.io/github/release/OakPlatinum/playertitleforfabric.svg)](https://github.com/OakPlatinum/playertitleforfabric/releases/latest)
