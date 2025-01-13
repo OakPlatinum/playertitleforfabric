@@ -2,8 +2,9 @@
 A player title Minecraft mod for Fabric.
 
 [![CI](https://github.com/OakPlatinum/playertitleforfabric/actions/workflows/build.yml/badge.svg)](https://github.com/OakPlatinum/playertitleforfabric/actions)
+![GitHub License](https://img.shields.io/github/license/OakPlatinum/playertitleforfabric)
 [![Latest Release](https://img.shields.io/github/release/OakPlatinum/playertitleforfabric.svg)](https://github.com/OakPlatinum/playertitleforfabric/releases/latest)
-[![Modrinth](https://img.shields.io/modrinth/v/pt4f.svg)](https://modrinth.com/mod/pt4f)
+[![Static Badge](https://img.shields.io/badge/Modrinth-pt4f-lightgreen)](https://modrinth.com/mod/pt4f)
 [![Stars](https://img.shields.io/github/stars/OakPlatinum/playertitleforfabric.svg?style=social)](https://github.com/OakPlatinum/playertitleforfabric)
 
 ## Via Config
