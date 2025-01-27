@@ -45,8 +45,8 @@ public class PlayerTitleManager {
     public static void grantPlayerTitle(String UUIDOrPlayerName, String title, boolean overwrite) {
         Config.playerTitleData.stream().filter(entry -> entry.startsWith(UUIDOrPlayerName + ",")).findFirst().ifPresentOrElse(entry -> {
             if (overwrite) {
-                Config.playerTitleData.add(UUIDOrPlayerName + "," + title);
                 Config.playerTitleData.removeIf(entry2 -> entry2.startsWith(UUIDOrPlayerName + ","));
+                Config.playerTitleData.add(UUIDOrPlayerName + "," + title);
             }
         }, () -> Config.playerTitleData.add(UUIDOrPlayerName + "," + title));
         Config.write(PlayerTitleForFabric.MOD_ID);
