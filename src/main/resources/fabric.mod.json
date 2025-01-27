@@ -23,9 +23,9 @@
 		"pt4f.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.10",
-		"minecraft": "~1.20.1",
-		"java": ">=17",
+		"fabricloader": "*",
+		"minecraft": "~1.21",
+		"java": ">=21",
 		"fabric-api": "*"
 	}
 }

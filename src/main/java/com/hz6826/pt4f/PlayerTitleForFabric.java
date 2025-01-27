@@ -2,7 +2,7 @@ package com.hz6826.pt4f;
 
 import eu.midnightdust.lib.config.MidnightConfig;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.message.v1.ServerMessageDecoratorEvent;
+import net.fabricmc.fabric.api.message.v1.ServerMessageEvents;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,6 +24,6 @@ public class PlayerTitleForFabric implements ModInitializer {
 		LOGGER.info("Player Title For Fabric is loading!");
 		MidnightConfig.init(MOD_ID, Config.class);
 		Commands.init();
-		ServerMessageDecoratorEvent.EVENT.register(ServerMessageDecoratorEvent.CONTENT_PHASE, DecoratorEventHandler::decorate);
+		ServerMessageEvents.ALLOW_CHAT_MESSAGE.register(ChatMessageEventHandler::decorate);
 	}
 }
